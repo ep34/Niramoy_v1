@@ -1,0 +1,37 @@
+<resources>
+	<string name="app_name">COVID19</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="nav_header_title">Android Studio</string>
+	<string name="nav_header_subtitle">android.studio@android.com</string>
+	<string name="nav_header_desc">Navigation header</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="menu_home">Home</string>
+	<string name="menu_gallery">Gallery</string>
+	<string name="menu_slideshow">Slideshow</string>
+
+	<string name="home_second">Home Second</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="dashboard"></string>
+	<string name="testConducted">পরীক্ষার সংখ্যা</string>
+	<string name="positive_cases">করোনা সংক্রান্তের সংখ্যা</string>
+	<string name="recovered">সুস্থের সংখ্যা</string>
+	<string name="deaths">মৃতের সংখ্যা</string>
+	<string name="in_last_24_hour">গত ২৪ ঘন্টায়</string>
+	<string name="total">সর্বমোট</string>
+	<string name="map_locator">ম্যাপ লোকেটর</string>
+	<string name="questions_answers"><![CDATA[প্রশ্ন ও জিজ্ঞাসা]]></string>
+	<string name="analytics">পরিসংখ্যান</string>
+	<string name="reminder">রিমাইন্ডার</string>
+	<string name="shop">অনলাইন স্টোর</string>
+	<string name="donations">সাহায্যে অংশ নিন</string>
+	<string name="set_home_locations">বাড়ির ঠিকানা সেট করুন</string>
+	<string name="reminder_for_handwash_after_entering_home">বাসায় আসার পর হাত ধোয়ার রিমাইন্ডার</string>
+	<string name="use_location_service_to_detect_when_entered_home_from_outside">
+লোকেশন সার্ভিস ব্যবহার করে বাসা থেকে নিজের অবস্থা সেট করুন</string>
+	<string name="watch">দেখুন</string>
+	<string name="search">খুঁজুন</string>
+</resources>

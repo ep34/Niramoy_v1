@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/mobile_navigation"
+
+	app:startDestination="@+id/nav_dashboard">
+
+	<fragment
+		android:id="@+id/nav_dashboard"
+		android:name="com.wazedrifat.covid19.Dashboard"
+		android:label="@string/dashboard"
+		tools:layout="@layout/fragment_dashboard"/>
+	<fragment
+		android:id="@+id/nav_reminder"
+		android:name="com.wazedrifat.covid19.Reminder"
+		android:label="@string/reminder"
+		tools:layout="@layout/fragment_reminder"/>
+	<fragment
+		android:id="@+id/nav_watch"
+		android:name="com.wazedrifat.covid19.watch"
+		android:label="@string/watch"
+		tools:layout="@layout/fragment_watch"/>
+	<fragment
+		android:id="@+id/nav_analytics"
+		android:name="com.wazedrifat.covid19.Analytics"
+		android:label="@string/analytics"
+		tools:layout="@layout/fragment_analytics"/>
+	<fragment
+		android:id="@+id/nav_questions_answers"
+		android:name="com.wazedrifat.covid19.QuestionsAnswers"
+		android:label="@string/questions_answers"
+		tools:layout="@layout/fragment_questions_answers"/>
+	<fragment
+		android:id="@+id/nav_map"
+		android:name="com.wazedrifat.covid19.MapLocatior"
+		android:label="@string/map_locator"
+		tools:layout="@layout/fragment_map_locatior"/>
+	<fragment
+		android:id="@+id/nav_shop"
+		android:name="com.wazedrifat.covid19.Shop"
+		android:label="@string/shop"
+		tools:layout="@layout/fragment_shop"/>
+	<fragment
+		android:id="@+id/nav_donations"
+		android:name="com.wazedrifat.covid19.Donations"
+		android:label="@string/donations"
+		tools:layout="@layout/fragment_donations"/>
+</navigation>
